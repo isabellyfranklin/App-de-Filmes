@@ -24,24 +24,9 @@ Site que exibe os filmes mais populares do momento, consumindo dados da API do T
 
 - [TMDB API](https://www.themoviedb.org/documentation/api) — base de dados de filmes
 
-##  Como rodar o projeto localmente
+## Estilo visual
 
-```bash
-# clone o repositório
-git clone https://github.com/seu-usuario/nome-do-repo.git
 
-# entre na pasta
-cd nome-do-repo
-
-# instale as dependências
-npm install
-
-# crie um arquivo .env na raiz com sua chave da API
-VITE_TMDB_API_KEY=sua_chave_aqui
-
-# rode o projeto
-npm run dev
-```
 
 ##  Status do projeto
 
