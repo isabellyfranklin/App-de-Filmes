@@ -22,7 +22,7 @@ function MovieList(){
             method: "GET",
             url: 'https://api.themoviedb.org/3/discover/movie',
             params: {
-                api_key: '8ab442a2d5a9ef1580ab0de9f3bb0b5a',
+                api_key: import.meta.env.VITE_TMDB_API_KEY,
                 language: 'pt-BR'
             }
         }).then(response => {

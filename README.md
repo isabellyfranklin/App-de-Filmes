@@ -1,77 +1,48 @@
-# React + TypeScript + Vite
+#  App de Filmes com API TMDB
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Site que exibe os filmes mais populares do momento, consumindo dados da API do TMDB (The Movie Database).
 
-Currently, two official plugins are available:
+##  Link do site
+> _(Em produção ainda)_
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+##  Funcionalidades
 
-## React Compiler
+- Exibe os filmes mais populares do momento
+- Mostra nota de avaliação de cada filme
+- Exibe sinopse (overview) de cada filme
+- Exibe pôster/capa dos filmes
+- _(mais funcionalidades em desenvolvimento)_
 
-The React Compiler is enabled on this template. See [this documentation](https://react.dev/learn/react-compiler) for more information.
+##  Tecnologias utilizadas
 
-Note: This will impact Vite dev & build performances.
+- **React** — construção da interface e componentes
+- **TypeScript** — tipagem estática e maior segurança no código
+- **SCSS (Sass)** — estilização dos cards e do layout
+- **Axios** — requisições HTTP para consumir a API do TMDB
 
-## Expanding the ESLint configuration
+##  API utilizada
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+- [TMDB API](https://www.themoviedb.org/documentation/api) — base de dados de filmes
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+##  Como rodar o projeto localmente
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
+```bash
+# clone o repositório
+git clone https://github.com/seu-usuario/nome-do-repo.git
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+# entre na pasta
+cd nome-do-repo
 
+# instale as dependências
+npm install
+
+# crie um arquivo .env na raiz com sua chave da API
+VITE_TMDB_API_KEY=sua_chave_aqui
+
+# rode o projeto
+npm run dev
 ```
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+##  Status do projeto
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
-
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-
-```
+ Em desenvolvimento
