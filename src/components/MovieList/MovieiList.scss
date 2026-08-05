@@ -1,7 +1,8 @@
-.movie-card{
-    color: white;
+.movie-list{
+    display:grid ;
+    grid-template-columns:  repeat(auto-fit, minmax(200px, 1fr));
+    gap: 16px;
+    list-style: none;
+    width: 100%;
 }
 
-.description{
-    color: yellow;
-}
