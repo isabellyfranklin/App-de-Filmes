@@ -28,6 +28,4 @@ Site que exibe os filmes mais populares do momento, consumindo dados da API do T
 
 
 
-##  Status do projeto
 
- Em desenvolvimento
