@@ -2,8 +2,8 @@
 
 Site que exibe os filmes mais populares do momento, consumindo dados da API do TMDB (The Movie Database).
 
-##  Link do site
-> _(Em produção ainda)_
+//##  Link do site
+//> _(Em produção ainda)_
 
 ##  Funcionalidades
 
@@ -11,7 +11,6 @@ Site que exibe os filmes mais populares do momento, consumindo dados da API do T
 - Mostra nota de avaliação de cada filme
 - Exibe sinopse (overview) de cada filme
 - Exibe pôster/capa dos filmes
-- _(mais funcionalidades em desenvolvimento)_
 
 ##  Tecnologias utilizadas
 
