@@ -21,7 +21,9 @@ Site que exibe os filmes mais populares do momento, consumindo dados da API do T
 
 - [TMDB API](https://www.themoviedb.org/documentation/api) — base de dados de filmes
 
-## Estilo visual
+## Preview
+
+<img width="1907" height="841" alt="image" src="https://github.com/user-attachments/assets/4a88888a-d6ce-455b-9823-8e161d636abc" />
 
 
 
