@@ -1,4 +1,4 @@
-#  App de Filmes com API TMDB
+# 🎬 App de Filmes com API TMDB
 
 Site que exibe os filmes mais populares do momento, consumindo dados da API do TMDB (The Movie Database).
 
