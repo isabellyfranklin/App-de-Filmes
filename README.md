@@ -2,7 +2,6 @@
 
 Site que exibe os filmes mais populares do momento, consumindo dados da API do TMDB (The Movie Database).
 
-
 ##  Funcionalidades
 
 - Exibe os filmes mais populares do momento
@@ -23,8 +22,27 @@ Site que exibe os filmes mais populares do momento, consumindo dados da API do T
 
 ## Preview
 
+
 <img width="1907" height="841" alt="image" src="https://github.com/user-attachments/assets/4a88888a-d6ce-455b-9823-8e161d636abc" />
 
 
+##  Como rodar o projeto
+ 
+```bash
+# Clone o repositório
+git clone https://github.com/isabellyfranklin/nome-do-repo.git
+ 
+# Acesse a pasta do projeto
+cd nome-do-repo
+ 
+# Instale as dependências
+npm install
+ 
+# Crie um arquivo .env na raiz com sua chave da API do TMDB
+VITE_TMDB_API_KEY=sua_chave_aqui
+ 
+# Rode o projeto
+npm run dev
+```
 
 
